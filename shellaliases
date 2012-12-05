@@ -36,19 +36,11 @@ alias to.gradlebook1='cd ~/Documents/AI-Clients-Archived/Gradleware/Gradle_Books
 alias to.gradleexamples='cd ~/Documents/AI-Clients-Archived/Gradleware/Gradle_Books_OReilly_SVN_and_Git_Repos/oreilly-gradle-book-examples'
 alias to.gradlesamples='cd ~/Documents/Code/Gradle/gradle_core_git/subprojects/docs/src/samples'
 
-alias to.courses='cd ${MYCOURSES}'
-
-alias to.courses.git='cd ~/Documents/GitHub-Training-Courseware/'
-alias to.courses.git.repos='cd ~/Documents/GitHub-Training-Courseware/repos'
-alias to.courses.git.workshop='cd ${MYCOURSES}/Git/presentations/Git-Workshop'
-alias to.courses.git.examples='cd ${MYCOURSES}/Git/repos/local_repo_examples'
-alias to.courses.git.courseware='cd ${MYCOURSES}/Git/courseware'
-alias to.courses.gradle='cd ~/Documents/Teach/Courses/Gradle-Fundamentals'
-alias to.courses.sonar='cd ~/Documents/Teach/Courses/Sonar'
-alias to.courses.jenkins='cd ~/Documents/Teach/Courses/Jenkins-CI'
-
 alias to.devapps='cd ${MYDEVAPPS}'
 
+# Work Web Aliases
+alias to.confluence='gnome-open http://confluence.disney.com'
+alias to.courier='gnome-open https://courier.messaging.corp.dig.com'
 
 #################################
 # Simple Program Name Shortening
@@ -182,4 +174,7 @@ alias lessc='less -R' # Lets color escape sequences carry through to less
 alias morec='more -R'
 alias lesscolor='less -R'
 alias morecolor='more -R'
+
+# sublime text
+alias subl='/home/mpeterma/development/sublime_text2/sublime_text'
 
