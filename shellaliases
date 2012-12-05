@@ -39,8 +39,8 @@ alias to.gradlesamples='cd ~/Documents/Code/Gradle/gradle_core_git/subprojects/d
 alias to.devapps='cd ${MYDEVAPPS}'
 
 # Work Web Aliases
-alias to.confluence='gnome-open http://confluence.disney.com'
-alias to.courier='gnome-open https://courier.messaging.corp.dig.com'
+alias to.confluence='xdg-open http://confluence.disney.com > /dev/null 2>&1'
+alias to.courier='xdg-open https://courier.messaging.corp.dig.com > /dev/null 2>&1'
 
 #################################
 # Simple Program Name Shortening
