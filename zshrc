@@ -24,7 +24,7 @@ export CASE_SENSITIVE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.dotfiles/oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sublime mvn gradle compleat dirpersist ssh-agent)
+plugins=(git mvn gradle compleat dirpersist ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 

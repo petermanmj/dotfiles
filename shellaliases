@@ -46,6 +46,7 @@ alias to.courier='xdg-open https://courier.messaging.corp.dig.com > /dev/null 2>
 # Simple Program Name Shortening
 alias aq=aquamacs
 alias g=git
+alias subl=/home/mpeterma/development/sublime_text2
 
 
 #############################
