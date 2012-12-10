@@ -1,6 +1,6 @@
 [user]
-	name = Matthew McCullough
-	email = matthew@github.com
+	name = Michael Peterman
+	email = michael.peterman@disney.com
 
 [color]
 # ui = true is a superset of all the more specific color options
@@ -37,7 +37,7 @@
 	quotepath = false
 	autocrlf = input
 	safecrlf = warn
-	editor = mate -w
+	editor = vim
 
 [alias]
 	br = branch -a
@@ -234,7 +234,7 @@
 
 [github]
     # https://github.com/blog/180-local-github-config
-	user = matthewmccullough
+	user = petermanmj
     #token = MOVEALONG
 [hub]
 	protocol = https

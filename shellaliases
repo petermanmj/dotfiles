@@ -33,6 +33,10 @@ alias aq=aquamacs
 alias g=git
 alias subl=/home/mpeterma/development/sublime_text2/sublime_text
 
+# Linux doesn't have pbcopy/pbpaste
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
 
 #############################
 # Utilities
