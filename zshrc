@@ -6,6 +6,7 @@ export ZSH=$HOME/.dotfiles/oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 export ZSH_THEME="gozilla"
+#export ZSH_THEME="dieter"
 #export ZSH_THEME="fino"
 #export ZSH_THEME="takashiyoshida"
 #export ZSH_THEME="random"

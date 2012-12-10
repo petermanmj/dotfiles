@@ -6,9 +6,6 @@
 
 #########################################
 # Commands to run apps
-alias run.clojure.repl='java -cp ${CLOJURE_HOME}/clojure.jar clojure.lang.Repl'
-alias run.jlineclojure.repl='java -cp ${CLOJURE_HOME}/jline-0.9.91.jar:${CLOJURE_HOME}/clojure.jar jline.ConsoleRunner clojure.lang.Repl'
-alias run.clojure.script='java -cp ${CLOJURE_HOME}/clojure.jar clojure.main'
 
 
 #########################################
@@ -20,33 +17,21 @@ alias to.dropbox='cd ~/Dropbox'
 alias to.desktop='cd ~/Desktop'
 alias to.process='cd ${MYPROCESS}'
 alias to.docs='cd ${MYDOCUMENTS}'
-alias to.clients='cd ~/Documents/AI-Clients-Matthew'
 alias to.code='cd ${MYCODE}'
-alias to.dosug='cd ~/Documents/AI-Clients-Matthew/DOSUG'
 alias to.scratch='cd ${MYSCRATCH}'
-alias to.teach='cd ${MYTEACH}'
-alias to.ppap='cd ~/Documents/AI-Clients-Matthew/Pearson, Addison Wesley/Presentation-Patterns-Book'
-alias to.github='cd ~/Documents/Code/GitHub'
-alias to.homebrew='cd /usr/local/Library'
-
-alias to.gradlecode='cd ~/Documents/Code/Gradle'
-alias to.gradleware='cd ~/Documents/AI-Clients-Archived/Gradleware'
-alias to.gradlebooks='cd ~/Documents/AI-Clients-Archived/Gradleware/Gradle_Books_OReilly_SVN_and_Git_Repos'
-alias to.gradlebook1='cd ~/Documents/AI-Clients-Archived/Gradleware/Gradle_Books_OReilly_SVN_and_Git_Repos/oreilly-gradle-book-1'
-alias to.gradleexamples='cd ~/Documents/AI-Clients-Archived/Gradleware/Gradle_Books_OReilly_SVN_and_Git_Repos/oreilly-gradle-book-examples'
-alias to.gradlesamples='cd ~/Documents/Code/Gradle/gradle_core_git/subprojects/docs/src/samples'
-
 alias to.devapps='cd ${MYDEVAPPS}'
+alias to.um='cd ${UNIFIEDMESSAGING}'
 
 # Work Web Aliases
 alias to.confluence='xdg-open http://confluence.disney.com > /dev/null 2>&1'
+alias to.jira='xdg-open http://jira.corp.dig.com > /dev/null 2>&1'
 alias to.courier='xdg-open https://courier.messaging.corp.dig.com > /dev/null 2>&1'
 
 #################################
 # Simple Program Name Shortening
 alias aq=aquamacs
 alias g=git
-alias subl=/home/mpeterma/development/sublime_text2
+alias subl=/home/mpeterma/development/sublime_text2/sublime_text
 
 
 #############################
