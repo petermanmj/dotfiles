@@ -37,6 +37,10 @@ alias subl=/home/mpeterma/development/sublime_text2/sublime_text
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
+###################################
+# Things not to correct, just trust me
+alias p4='nocorrect p4'
+alias curl='nocorrect curl'
 
 #############################
 # Utilities
