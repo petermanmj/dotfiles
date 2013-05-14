@@ -2,7 +2,7 @@
 set ts=4
 
 " turn syntax highlighting on by default
-syntax on
+" syntax on
 
 " set auto-indenting on for programming
 set ai
