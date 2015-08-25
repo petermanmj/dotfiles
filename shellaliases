@@ -31,7 +31,8 @@ alias to.courier='xdg-open https://courier.messaging.corp.dig.com > /dev/null 2>
 # Simple Program Name Shortening
 alias aq=aquamacs
 alias g=git
-alias subl=/home/mpeterma/development/sublime_text2/sublime_text
+# LINUX: alias subl=/home/mpeterma/development/sublime_text2/sublime_text
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 # Linux doesn't have pbcopy/pbpaste
 # alias pbcopy='xsel --clipboard --input'
@@ -168,7 +169,4 @@ alias lessc='less -R' # Lets color escape sequences carry through to less
 alias morec='more -R'
 alias lesscolor='less -R'
 alias morecolor='more -R'
-
-# sublime text
-alias subl='/home/mpeterma/development/sublime_text2/sublime_text'
 
