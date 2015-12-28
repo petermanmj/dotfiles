@@ -1,0 +1,8 @@
+# bootstrap homebrew, cask, this will trigger the command line tools install\
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
+
+# need git to pull down
+brew install git
+cd ~
+git clone --recurse-submodules https://github.com/petermanmj/dotfiles.git .dotfiles

@@ -1,3 +1,5 @@
 defaults write "Apple Global Domain" AppleKeyboardUIMode -int 2
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 90
+defaults write com.apple.menuextra.battery ShowPercent -string YES
+defaults write NSGlobalDomain AppleInterfaceStyle Dark

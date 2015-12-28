@@ -72,3 +72,6 @@ git update-index --assume-unchanged bash_history
 git update-index --assume-unchanged zsh_history
 git update-index --assume-unchanged zsh-update
 git update-index --assume-unchanged zdirstore
+
+# make zsh the default
+echo 'you should now chsh -s /bin/zsh'
