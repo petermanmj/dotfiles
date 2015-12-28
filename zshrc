@@ -32,9 +32,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-export NVM_DIR=~/.nvm
-source /usr/local/opt/nvm/nvm.sh
-nvm use 0.12.4
 
 PATH="/Users/mpeterma/perl5/bin${PATH+:}${PATH}"; export PATH;
 PERL5LIB="/Users/mpeterma/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;

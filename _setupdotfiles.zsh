@@ -40,6 +40,7 @@ echo "DOTFILESDIRRELATIVETOHOME = $DOTFILESDIRRELATIVETOHOME"
 
 pushd ~
 
+symlinkifne .apple-defaults
 symlinkifne .bash_profile
 symlinkifne .bashrc
 symlinkifne .boom

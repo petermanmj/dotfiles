@@ -20,20 +20,17 @@ alias to.docs='cd ${MYDOCUMENTS}'
 alias to.code='cd ${MYCODE}'
 alias to.scratch='cd ${MYSCRATCH}'
 alias to.devapps='cd ${MYDEVAPPS}'
-alias to.um='cd ${UNIFIEDMESSAGING}'
 
 # Work Web Aliases
-alias to.confluence='xdg-open http://confluence.disney.com > /dev/null 2>&1'
-alias to.jira='xdg-open http://jira.corp.dig.com > /dev/null 2>&1'
-alias to.courier='xdg-open https://courier.messaging.corp.dig.com > /dev/null 2>&1'
+alias to.confluence='open http://confluence.disney.com > /dev/null 2>&1'
+alias to.jira='open http://essjira.corp.dig.com > /dev/null 2>&1'
 
 #################################
 # Simple Program Name Shortening
 alias aq=aquamacs
 alias g=git
 # LINUX: alias subl=/home/mpeterma/development/sublime_text2/sublime_text
-alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
-alias atom='open -a Atom'
+
 alias idea='open -a "Intellij Idea 12"
 
 # Linux doesn't have pbcopy/pbpaste
