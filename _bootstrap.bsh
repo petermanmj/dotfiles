@@ -6,3 +6,8 @@ brew tap caskroom/cask
 brew install git
 cd ~
 git clone --recurse-submodules https://github.com/petermanmj/dotfiles.git .dotfiles
+
+# make dirs
+mkdir ~/src
+mkdir ~/development
+mkdir ~/sandbox

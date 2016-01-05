@@ -15,10 +15,10 @@ export MYDEVAPPS=~/development
 #########################################################################
 # Tool paths
 #########################################################################
-export M2_HOME=~mpeterma/development/maven
+#export M2_HOME=~mpeterma/development/maven
 export GRADLE_HOME=/Users/mpeterma/development/gradle
-export JDK_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home
+export JDK_HOME=/Library/Java/Home
+export JAVA_HOME=/Library/Java/Home
 export GOPATH=/usr/local/go
 #export APPENGINE_HOME=/Applications/Dev/appengine-java-sdk
 #export CLOJURE_HOME=/Applications/Dev/clojure

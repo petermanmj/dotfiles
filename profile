@@ -17,5 +17,7 @@ source ~/.shellaliases
 source ~/.shellactivities
 source ~/.apple-defaults
 
+echo "`brew outdated`"
+
 # eval "$(rbenv init -)"
 

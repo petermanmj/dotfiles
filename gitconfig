@@ -189,7 +189,7 @@
 	cmd = araxisgitdiff ONE $LOCAL THREE FOUR $REMOTE
 [diff]
 #	tool = araxis
-	tool = myaraxis
+	tool = p4merge
 
 [mergetool]
 	prompt = false
