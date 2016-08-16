@@ -63,6 +63,11 @@ alias hexdumpfile='od -h'
 # Flush the DNS on Mac
 alias network.dnsflush='dscacheutil -flushcache'
 
+# speedup login times for JAMF crap
+alias login.fix='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+
+alias open.recent="open \"`ls -t | head -1`\""
+
 # Copy and paste and prune the usless newline
 alias pbcopynn='tr -d "\n" | pbcopy'
 
@@ -164,6 +169,12 @@ function history.400() {
     tail -400 ~/.zsh_history | cut -c 16- | subl&
 }
 
+# function to install with homebrew _and_ add to install software.
+function brew.install() {
+    brew install $1
+	installFile=~/.dotfiles/_install-software.zsh
+    awk "/Pale Ale/ { print; print \"brew install $1\"; next }1" $installFile | tee $installFile
+}
 alias lessc='less -R' # Lets color escape sequences carry through to less
 alias morec='more -R'
 alias lesscolor='less -R'

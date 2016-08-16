@@ -31,10 +31,14 @@ plugins=(git mvn gradle compleat ssh-agent)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 PATH="/Users/mpeterma/perl5/bin${PATH+:}${PATH}"; export PATH;
 PERL5LIB="/Users/mpeterma/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/Users/mpeterma/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/mpeterma/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/mpeterma/perl5"; export PERL_MM_OPT;
+
+#DOCKER
+export DOCKER_TLS_VERIFY=1
+export DOCKER_HOST=tcp://127.0.0.1:2376
+export DOCKER_CERT_PATH=/Users/mpeterma/.boot2docker/certs/boot2docker-vm
