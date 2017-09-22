@@ -31,7 +31,7 @@ alias aq=aquamacs
 alias g=git
 # LINUX: alias subl=/home/mpeterma/development/sublime_text2/sublime_text
 
-alias idea='open -a "Intellij Idea 12"
+alias idea='open -a "Intellij Idea"'
 
 # Linux doesn't have pbcopy/pbpaste
 # alias pbcopy='xsel --clipboard --input'

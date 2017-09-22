@@ -38,7 +38,9 @@ PERL_LOCAL_LIB_ROOT="/Users/mpeterma/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_L
 PERL_MB_OPT="--install_base \"/Users/mpeterma/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/mpeterma/perl5"; export PERL_MM_OPT;
 
-#DOCKER
-export DOCKER_TLS_VERIFY=1
-export DOCKER_HOST=tcp://127.0.0.1:2376
-export DOCKER_CERT_PATH=/Users/mpeterma/.boot2docker/certs/boot2docker-vm
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh

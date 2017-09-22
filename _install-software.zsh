@@ -17,6 +17,7 @@ brew cask install filezilla
 brew cask install alfred
 
 # Pale Ales
+brew install terraform
 brew install wget
 brew install caffeine
 brew install httpie
